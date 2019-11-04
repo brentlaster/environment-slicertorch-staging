@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: alpha-staging
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: alpha-staging
+  pipelines: {}
